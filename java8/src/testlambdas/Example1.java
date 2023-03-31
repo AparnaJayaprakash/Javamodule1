@@ -41,7 +41,7 @@ public class Example1 {
 			int p = 1;
 			for(int i = 1; i<=e; i++) {
 				
-				p *= b;
+				p = p* b;
 			}
 			return p;
 		};
